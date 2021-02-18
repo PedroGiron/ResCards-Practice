@@ -1,0 +1,65 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 100%;
+    font-family: sans-serif;
+    letter-spacing: 0.03em;
+    line-height: 1.6;
+}
+.title{
+    background-color: rgb(11, 42, 71);
+    text-align: center;
+    font-size: calc(25px + 1vw);
+    color: rgb(164, 39, 180);
+    margin-top: 0px;
+    font-weight: 250px;
+}
+span{
+    color:  rgb(60, 112, 207);
+}
+.container{
+    background-image: url("imgs/background.png");
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.container .card{
+    width: calc(320px + 5vw);
+    height: calc(555px + 5vw);
+    background-color: rgba(221, 23, 66, 0.856);
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.35s;
+}
+.container .card:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+.container .card img{
+    justify-content: center;
+    width: 100%;
+    max-width: 300px;
+    height: 300px;
+}
+.container .card h3{
+    color: yellow;
+    font-weight: 600;
+    font-size: calc(20px + 1vw);
+}
+.container .card p{
+    padding: 0 1rem;
+    color: rgb(11, 42, 71);
+    font-weight: 300;
+}
+.container .card a{
+    font-weight: 500;
+    
+    text-decoration: none;
+    color: rgb(46, 245, 235);
+}
